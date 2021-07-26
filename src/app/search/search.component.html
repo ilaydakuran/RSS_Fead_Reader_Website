@@ -1,0 +1,20 @@
+<p>Search component html</p>
+<form id="form"> 
+    <input type="search" id="query" name="q" placeholder="Search for a link">
+    <br>
+    <br> 
+    <button name="button" value="OK" type="button" onclick="javascript: submitted()">Search</button>   
+    <script>
+    function submitted(){
+        window.addEventListener("sonunda artık");
+      //  var txt = document.getElementById("txtWord").value;
+      // window.alert(txt);
+    }</script>
+  </form>
+  <div class="row">
+      <p>hi</p>
+    <app-search-result
+      *ngFor="let result of results"
+      [result]="result">
+    </app-search-result>
+  </div>
