@@ -1,20 +1,23 @@
-<p>Search component html</p>
-<form id="form"> 
-    <input type="search" id="query" name="q" placeholder="Search for a link">
-    <br>
-    <br> 
-    <button name="button" value="OK" type="button" onclick="javascript: submitted()">Search</button>   
+
+<form id="form" action="" method="get" autocomplete="on" novalidate> <!-- buraya sumbite basıldıktan sonra hangi sayfaya gideceğini action2ın içine yazıyoruz -->
+
+    <label for="homepage">Enter an URL:</label>
+    <input type="url" id="homepage" name="homepage" placeholder="Search for a link" required>
+    <input type="submit" value="Search">
+  </form>
+
     <script>
     function submitted(){
         window.addEventListener("sonunda artık");
-      //  var txt = document.getElementById("txtWord").value;
-      // window.alert(txt);
-    }</script>
-  </form>
+      
+    }
+    </script>
+  
   <div class="row">
-      <p>hi</p>
+      
     <app-search-result
       *ngFor="let result of results"
       [result]="result">
     </app-search-result>
   </div>
+
