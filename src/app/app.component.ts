@@ -1,28 +1,43 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-//import { Url } from 'url';
-import { FormBuilder } from '@angular/forms';
-
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
+import { Routes, RouterModule } from '@angular/router';
+import { SearchComponent } from './search/search.component';
+//import { FeedService } from './feed-service.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   title = 'RSS FEED READER WEBSITE';
-  @Input() url!: ""; // TODO
-  // bunu nasıl alıcağımı bilip app.component.htmlde {{ url }} olarak yazıcam sanırım get ile alıcaz.
+  
+  router: any;
+  private feedUrl: string = 'https%3A%2F%2Fwww.becompany.ch%2Fen%2Fblog%2Ffeed.xml';
+  private feeds: any;
+ 
+ 
+ urlForm: FormGroup;
 
- // @Input() url!: Url;
-  //itemImageUrl = 'assets/teapot.svg';
-  //lineThrough = '';
-  //displayNone = '';
-  //@Input() prefix = '';
-// @Output() submitButton = new EventEmitter<Url>();
+ 
+ urlRegEx =
+   '[-a-zA-Z0-9@:%_+.~#?&//=]{2,256}(.[a-z]{2,4})?\b(/[-a-zA-Z0-9@:%_+.~#?&//=]*)?';
 
-  submit() {
-  // this.submitButton.emit(this.url);
+ constructor() {
 
-  }
+   this.urlForm = new FormGroup({
+     url: new FormControl('', {
+       validators: [Validators.required, Validators.pattern(this.urlRegEx)],
+       updateOn: 'blur',
+     }),
+   });
+
+
+ }
+ submit() {
+   console.log(this.urlForm.value);
+ }
+ 
   
 }
 

@@ -1,23 +1,22 @@
 import { Injectable } from '@angular/core';
-import { Http, Response } from '@angular/http';
-import {Observable} from 'rxjs/Rx';
+import { HttpClient } from '@angular/common/http';
+import { Observable, throwError } from 'rxjs';
+import { catchError, retry } from 'rxjs/operators';
 import { Feed } from './model/feed';
-
+import { map } from 'rxjs/operators';
 @Injectable()
-export class FeedService {
+export class ConfigService {
 
   private rssToJsonServiceBaseUrl: string = 'https://rss2json.com/api.json?rss_url=';
+  constructor(private http: HttpClient) { }
 
-  constructor(
-    private http: Http
-  ) { }
+ 
 
   getFeedContent(url: string): Observable<Feed> {
     return this.http.get(this.rssToJsonServiceBaseUrl + url)
-            .map(this.extractFeeds)
-            .catch(this.handleError);
+    .pipe(map((response: any) => response.json()));
+            
   }
-
   private extractFeeds(res: Response): Feed {
     let feed = res.json();
     return feed || { };
@@ -31,4 +30,10 @@ export class FeedService {
     console.error(errMsg); // log to console instead
     return Observable.throw(errMsg);
   }
+  
+}
+export interface Config {
+  input_url: string;
+  title: string;
+  description: any;
 }
