@@ -2,21 +2,23 @@
   RSS Feed Reader
 </h1>
 <br>
-
-
 <!-- This is a comment -->
-
-
 <body>
   <img src="https://t4.ftcdn.net/jpg/02/98/09/11/360_F_298091101_PcBerbSOrYDSlto8RylsGQofCEfUQKcf.jpg">
-  <p style="font-size: larger;">
-    Enter an URL for RSS websites:
-    <br>
-    Welcome to {{title}} 
-  </p> 
+  <i><br>
+    Welcome to {{title}} </i>
+<br>
+<br>
+<br>
   <form id="form"> 
-    <app-search></app-search>
-    <app-search-result></app-search-result>
+    
+    <nav>
+      <a routerLink="/search">Search</a>
+      <br>
+     <!-- <a routerLink="/searchresult">Search Results</a>-->
+    </nav>
+    <router-outlet></router-outlet> <!--router-outlet tells the router where to display routed views.-->
+   
   </form>
 </body>
 
