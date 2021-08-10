@@ -3,6 +3,7 @@ import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms'
 import { Routes, RouterModule } from '@angular/router';
 import { SearchComponent } from './search/search.component';
 //import { FeedService } from './feed-service.service';
+import { Router,NavigationEnd  } from '@angular/router';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -12,31 +13,21 @@ import { SearchComponent } from './search/search.component';
 export class AppComponent {
   title = 'RSS FEED READER WEBSITE';
   
-  router: any;
+  
   private feedUrl: string = 'https%3A%2F%2Fwww.becompany.ch%2Fen%2Fblog%2Ffeed.xml';
   private feeds: any;
- 
- 
- urlForm: FormGroup;
+  public href: string = "";
+  url: string = "asdf";
+  
 
- 
- urlRegEx =
-   '[-a-zA-Z0-9@:%_+.~#?&//=]{2,256}(.[a-z]{2,4})?\b(/[-a-zA-Z0-9@:%_+.~#?&//=]*)?';
-
- constructor() {
-
-   this.urlForm = new FormGroup({
-     url: new FormControl('', {
-       validators: [Validators.required, Validators.pattern(this.urlRegEx)],
-       updateOn: 'blur',
-     }),
-   });
-
+ constructor(private router: Router) {
 
  }
- submit() {
-   console.log(this.urlForm.value);
- }
+ ngOnInit() {
+  this.href = this.router.url;
+   console.log(this.router.url);
+}
+
  
   
 }

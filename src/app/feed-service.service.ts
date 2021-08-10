@@ -31,6 +31,7 @@ export class ConfigService {
     return Observable.throw(errMsg);
   }
   
+  
 }
 export interface Config {
   input_url: string;

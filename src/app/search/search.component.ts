@@ -1,7 +1,9 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { SearchResult } from '../search-result/search-result.model';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router, Routes } from '@angular/router';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+
 
 
 @Component({
@@ -12,35 +14,88 @@ import { Router } from '@angular/router';
 export class SearchComponent implements OnInit {
   results: SearchResult[] = [];
  
-  @Input() feed_url: any;
- //const url= "https://hnrss.org/frontpage";
+  @Input() feed_url: string | undefined;
+  
+  entries : Array<any> = [];
+ 
+  
   constructor(
-    public url: HttpClient,
+    
     private router: Router,
+    public http: HttpClient,
     
   
-  ) {}
-  
-  ngOnInit(): void {
+  ) { 
+
+  }
+  ngOnInit() {
+    //this.feed_url = this.http.();
   }
  
-  search(url: any) {
-    this.router.url === '/search';
-    console.log(this.router.url);
+
+  
+  
+ 
+  search(http: HttpClient) {
+    //this.http
+   // console.log(this.route.url);
+ //  this.feed_url = URL.get();
   }
+  onClickSubmit(data: { http: HttpClient; }) {
+    
+    if(!data){
+      alert("URL is not valid");
+    }
+    else{
+      alert("URL is submitted");
+      this.openLinkInBrowser();
+    }
+    
+    
+ }
   
   openLinkInBrowser() {
-    window.open(this.feed_url.link);
+  
+      window.open(this.feed_url); // yeni sekme açıyor 
+    
+  
   }
   
-
 
   updateResults(results: SearchResult[]): void {
     this.results = results;
     
-    
-    // console.log("results:", this.results); // uncomment to take a look
   }
 }
  
+
+function parseURL() {
+  throw new Error('Function not implemented.');
+}
+
+function parseUrlWrapper() {
+  throw new Error('Function not implemented.');
+}
+
+
+
+function onClickSubmit(data: any, arg1: { http: typeof HttpClient; }) {
+  throw new Error('Function not implemented.');
+}
+
+function data(data: any, arg1: { http: typeof HttpClient; }) {
+  throw new Error('Function not implemented.');
+}
+
+function openLinkInBrowser() {
+  throw new Error('Function not implemented.');
+}
+
+function updateResults(results: any, arg1: any) {
+  throw new Error('Function not implemented.');
+}
+
+function results(results: any, arg1: any) {
+  throw new Error('Function not implemented.');
+}
 

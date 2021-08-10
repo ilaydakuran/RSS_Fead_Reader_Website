@@ -1,19 +1,28 @@
 import { Injectable, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { SearchComponent } from './search/search.component';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { SearchResultComponent } from './search-result/search-result.component';
+import { ActivatedRoute, RouterModule } from '@angular/router';
+import { RssfeedComponent } from './rssfeed/rssfeed.component';
+import { FormsModule } from '@angular/forms';
+import { AppRouting } from './app.routing';
 @NgModule({
   declarations: [
     AppComponent,
     SearchComponent,
-    SearchResultComponent
+    SearchResultComponent,
+    RssfeedComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     HttpClientModule,
+    RouterModule,
+    AppRouting,
+    
+  
   ],
 
   providers: [],

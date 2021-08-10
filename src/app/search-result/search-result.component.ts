@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { SearchResult } from './search-result.model';
 
+import { ConfigService } from '../feed-service.service';
 @Component({
   selector: 'app-search-result', //tagleri belirtir
   templateUrl: './search-result.component.html',
@@ -8,11 +9,15 @@ import { SearchResult } from './search-result.model';
 })
 export class SearchResultComponent implements OnInit {
   @Input() result!: SearchResult;
-  constructor() { 
-    
+  constructor(
+    private fs: ConfigService
+  ) 
+  { 
   }
 
   ngOnInit(): void {
+    
   }
 
+  
 }

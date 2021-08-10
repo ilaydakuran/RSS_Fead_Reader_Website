@@ -1,15 +1,20 @@
-
-<form id="form" action="" method="get" autocomplete="on" novalidate> <!-- buraya sumbite basıldıktan sonra hangi sayfaya gideceğini action2ın içine yazıyoruz -->
-
-    <label for="homepage">Enter an URL:</label>
-    <input type="url" id="homepage" name="homepage" placeholder="Search for a link" required>
+<form #Search= "ngForm"  (ngSubmit) = "onClickSubmit(Search.value)" id="form" 
+action="" method="get" autocomplete="on" novalidate> 
+<!-- buraya sumbite basıldıktan sonra hangi sayfaya gideceğini actionın içine yazıyoruz-->
+    <label for="feed_url">Enter an URL: </label>
+    <input type="url" id="homepage" name="homepage" [(ngModel)]="feed_url" placeholder="Search for a link" required >
+    
     <input type="submit" value="Search">
-  </form>
+   
 
+ 
+   </form>
+    <!--
+      <app-search-result></app-search-result>
+  </form>
     <script>
     function submitted(){
         window.addEventListener("sonunda artık");
-      
     }
     </script>
   
@@ -20,4 +25,12 @@
       [result]="result">
     </app-search-result>
   </div>
+-->
 
+<!--
+<div class="card-feed-entry" (click)="openLinkInBrowser()">
+  <div>{{feed.title}}</div>
+  <div>{{feed.link}}</div>
+  <div>{{feed.description}}</div>
+</div>
+-->
