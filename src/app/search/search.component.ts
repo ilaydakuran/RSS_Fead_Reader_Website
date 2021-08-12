@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { SearchResult } from '../search-result/search-result.model';
 import { ActivatedRoute, Router, Routes } from '@angular/router';
@@ -14,10 +14,10 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 export class SearchComponent implements OnInit {
   results: SearchResult[] = [];
  
-  @Input() feed_url: string | undefined;
+  @Input() feed_url: string;
   
   entries : Array<any> = [];
- 
+  
   
   constructor(
     

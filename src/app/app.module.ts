@@ -8,6 +8,7 @@ import { ActivatedRoute, RouterModule } from '@angular/router';
 import { RssfeedComponent } from './rssfeed/rssfeed.component';
 import { FormsModule } from '@angular/forms';
 import { AppRouting } from './app.routing';
+import { RSSParserService } from './rss-parser.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +26,9 @@ import { AppRouting } from './app.routing';
   
   ],
 
-  providers: [],
+  providers: [
+    RSSParserService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

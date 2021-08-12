@@ -1,3 +1,5 @@
+import { HttpClient } from "@angular/common/http";
+
 /**
  * SearchResult is a data-structure that holds an individual
  * record a video search
@@ -6,7 +8,7 @@
     id: number;
     title: string;
     description: string;
-    url: string;
+    url: HttpClient;
   
     constructor(obj?: any) {
       this.id              = obj && obj.id             || null;
