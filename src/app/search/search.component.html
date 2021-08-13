@@ -2,21 +2,18 @@
 action="" method="get" autocomplete="on" novalidate> 
 <!-- buraya sumbite basıldıktan sonra hangi sayfaya gideceğini actionın içine yazıyoruz-->
     <label for="feed_url">Enter an URL: </label>
-    <input type="url" id="homepage" name="homepage" [(ngModel)]="feed_url" placeholder="Search for a link" required >
-    
-    <input type="submit" value="Search">
-   
+    <input type="url" id="homepage" name="homepage" #newItem [(ngModel)]="feed_url" placeholder="Search for a link" required >
 
+    <input type="submit" value="Search" >
+   
+    <app-xml-parser></app-xml-parser>
+    
  
    </form>
     <!--
       <app-search-result></app-search-result>
   </form>
-    <script>
-    function submitted(){
-        window.addEventListener("sonunda artık");
-    }
-    </script>
+    
   
   <div class="row">
       

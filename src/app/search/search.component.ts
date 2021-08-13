@@ -1,9 +1,8 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { SearchResult } from '../search-result/search-result.model';
+
 import { ActivatedRoute, Router, Routes } from '@angular/router';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-
 
 
 @Component({
@@ -12,7 +11,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent implements OnInit {
-  results: SearchResult[] = [];
+  //results: SearchResult[] = [];
  
   @Input() feed_url: string;
   
@@ -40,6 +39,7 @@ export class SearchComponent implements OnInit {
     else{
       alert("URL is submitted");
       this.openLinkInBrowser();
+      
     }
     
     
@@ -61,10 +61,7 @@ export class SearchComponent implements OnInit {
   }
   
 
-  updateResults(results: SearchResult[]): void {
-    this.results = results;
-    
-  }
+  
 }
  
 

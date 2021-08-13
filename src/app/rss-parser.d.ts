@@ -25,8 +25,8 @@ declare module "rss-parser" {
   
     interface ParserCallback { (err: Error, parsed: RSSParsed): void }
   
-    function parseString(xml: string, callback: ParserCallback);
-    function parseURL(url: string, callback: ParserCallback);
-    function parseFile(filename: string, callback: ParserCallback);
+  //  function parseString(xml: string, callback: ParserCallback);
+   // function parseURL(url: string, callback: ParserCallback);
+    //function parseFile(filename: string, callback: ParserCallback);
   
   }

@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Routes } from '@angular/router';
-
+//import { Parser } from 'rss-parser';
 
 @Component({
   selector: 'app-rssfeed',
@@ -9,15 +9,18 @@ import { Routes } from '@angular/router';
   styleUrls: ['./rssfeed.component.css']
 })
 export class RssfeedComponent implements OnInit {
- 
-  //results: searchResult[] = [];
-  searchResult: any;
+  //@Output() results: any;
+  @Output() results = new EventEmitter<string>();
+  
+  addNewItem(value: string) {
+    this.results.emit(value);
+  }
   constructor(
   
-    public http: HttpClient,
+  //  public http: HttpClient,
     
     ) { }
-  @Input() feed: any;
+ 
   ngOnInit(): void {
     
   }

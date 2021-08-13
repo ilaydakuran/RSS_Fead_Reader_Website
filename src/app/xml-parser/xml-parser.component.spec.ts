@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SearchResultComponent } from './search-result.component';
+import { XmlParserComponent } from './xml-parser.component';
 
-describe('SearchResultComponent', () => {
-  let component: SearchResultComponent;
-  let fixture: ComponentFixture<SearchResultComponent>;
+describe('XmlParserComponent', () => {
+  let component: XmlParserComponent;
+  let fixture: ComponentFixture<XmlParserComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SearchResultComponent ]
+      declarations: [ XmlParserComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SearchResultComponent);
+    fixture = TestBed.createComponent(XmlParserComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -14,18 +14,14 @@ export class AppComponent {
   title = 'RSS FEED READER WEBSITE';
   
   
-  private feedUrl: string = 'https%3A%2F%2Fwww.becompany.ch%2Fen%2Fblog%2Ffeed.xml';
-  private feeds: any;
-  public href: string = "";
-  url: string = "asdf";
+  
   
 
  constructor(private router: Router) {
 
  }
  ngOnInit() {
-  this.href = this.router.url;
-   console.log(this.router.url);
+  
 }
 
  
