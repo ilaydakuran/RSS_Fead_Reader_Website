@@ -1,0 +1,271 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
+<title>Hacker News: Front Page</title>
+<link>https://news.ycombinator.com/</link>
+<description>Hacker News RSS</description>
+<docs>https://hnrss.org/</docs>
+<generator>hnrss v1.1-9-ge3a2bf8</generator>
+<lastBuildDate>Wed, 11 Aug 2021 14:23:15 +0000</lastBuildDate>
+<atom:link href="https://hnrss.org/frontpage" rel="self" type="application/rss+xml"/>
+<item>
+<title>
+<![CDATA[ Ask HN: What the HN of Cryptocurrency? ]]>
+</title>
+<description>
+<![CDATA[ <p>Hackernews is what I would consider a website with solid discussion about technology. However it's extremely skeptical when it comes to cryptocurrency.<p>I'd like know if there is a similar technically minded community for crypto.<p>I sometimes read /r/CryptoCurrency but its mostly shilling and asking about prices, so it doesn't really interest me.</p> <hr> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=28141799">https://news.ycombinator.com/item?id=28141799</a></p> <p>Points: 12</p> <p># Comments: 1</p> ]]>
+</description>
+<pubDate>Wed, 11 Aug 2021 13:38:01 +0000</pubDate>
+<link>https://news.ycombinator.com/item?id=28141799</link>
+<dc:creator>GGfpc</dc:creator>
+<comments>https://news.ycombinator.com/item?id=28141799</comments>
+<guid isPermaLink="false">https://news.ycombinator.com/item?id=28141799</guid>
+</item>
+<item>
+<title>
+<![CDATA[ Coinbase removes ‘backed by US dollars’ claim for USDC stablecoin ]]>
+</title>
+<description>
+<![CDATA[ <p>Article URL: <a href="https://nexteven.com/coinbase-removes-backed-by-us-dollars-claim-for-usdc-stablecoin/">https://nexteven.com/coinbase-removes-backed-by-us-dollars-claim-for-usdc-stablecoin/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=28141684">https://news.ycombinator.com/item?id=28141684</a></p> <p>Points: 75</p> <p># Comments: 51</p> ]]>
+</description>
+<pubDate>Wed, 11 Aug 2021 13:26:05 +0000</pubDate>
+<link>https://nexteven.com/coinbase-removes-backed-by-us-dollars-claim-for-usdc-stablecoin/</link>
+<dc:creator>cryptoupdate</dc:creator>
+<comments>https://news.ycombinator.com/item?id=28141684</comments>
+<guid isPermaLink="false">https://news.ycombinator.com/item?id=28141684</guid>
+</item>
+<item>
+<title>
+<![CDATA[ Instagram launches hate-speech 'limits' to hide abuse ]]>
+</title>
+<description>
+<![CDATA[ <p>Article URL: <a href="https://www.bbc.co.uk/news/technology-58173921">https://www.bbc.co.uk/news/technology-58173921</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=28141561">https://news.ycombinator.com/item?id=28141561</a></p> <p>Points: 19</p> <p># Comments: 17</p> ]]>
+</description>
+<pubDate>Wed, 11 Aug 2021 13:11:46 +0000</pubDate>
+<link>https://www.bbc.co.uk/news/technology-58173921</link>
+<dc:creator>FridayoLeary</dc:creator>
+<comments>https://news.ycombinator.com/item?id=28141561</comments>
+<guid isPermaLink="false">https://news.ycombinator.com/item?id=28141561</guid>
+</item>
+<item>
+<title>
+<![CDATA[ Launch HN: Slip (YC S21) – Build and sell interactive programming courses ]]>
+</title>
+<description>
+<![CDATA[ <p>Hi HN, I'm Kenneth and I'm the founder of Slip (<a href="https://www.slip.so" rel="nofollow">https://www.slip.so</a>), a marketplace for programmers to build and sell courses, including interactive elements like in-browser code execution, popular programming embeds (CodeSandbox, StackBlitz, Replit repls (Coming soon)), and videos.<p>Instead of spending 3 or more months building their own course platform, developers can use Slip to create engaging interactive courses and make more money faster from their knowledge<p>In January, I built vim.so in 3 days, and made $11k in my first month. I even did a Show HN for it (<a href="https://news.ycombinator.com/item?id=25846347" rel="nofollow">https://news.ycombinator.com/item?id=25846347</a>). I was able to do it in 3 days because I had previously spent 3 months building an interactive course for Python fundamentals. That previous experience reduced the time it took me to build a new course, which was the only reason it made sense to do. 3 days of hacking was low-risk enough that when I had the idea for vim.so, it made sense to actually try and see.<p>The results blew me away and actually changed my life. If sales continue at the current rate, I'll make about $50k this year with vim.so. This experience gave me confidence that I could build something and sell it on the internet. It helped give me credibility as a developer, and got me connected with lots of other cool folks building cool things.<p>After launching vim.so, I started getting lots of inbound requests to build other interactive courses on various topics: Ruby, Git, Bash, etc. At first I thought I'd just build all these myself but quickly realized other folks could teach these topics at a much deeper level than I could. But why weren't they building these courses? It's because it's currently too hard to make an interactive programming course. After maybe the 5th Twitter DM asking me for an interactive Git course, I decided to start a platform that helps other devs do the same thing I did with vim.so.<p>The main tool in Slip is an online course editor that allows you to build a course with a variety of "block types". You can use markdown, videos, code snippets, figma embeds, CodeSandbox Embeds, and executable code snippets. Code executions happen in remote one-off Docker containers. Code snippets are built using the open-source Ace Editor react component.<p>The editor is free to use. We take a 10% cut of sales made via our site (plus processing fees). We handle payments via Stripe and accept and remit VAT taxes for the author. Slip also has features to help authors make more money with their courses. For selected courses, we can run a presale campaign. We also publish and feature courses directly on our site that meet a certain quality bar.<p>Some devs who have rolled their own interactive course platform have spent more than 6 months just on that part! If we can remove that 6 months of non-content work, more devs will be able to build better educational materials. I've met multiple folks making over 6 figures a year teaching programming courses. Slip will be a success if we can help many more people do that, a lot more easily.<p>If you have any experience building educational programming courses or ideas on what programming courses are lacking today, or have any thoughts to share, I'd love to hear from you!</p> <hr> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=28141462">https://news.ycombinator.com/item?id=28141462</a></p> <p>Points: 83</p> <p># Comments: 27</p> ]]>
+</description>
+<pubDate>Wed, 11 Aug 2021 12:59:30 +0000</pubDate>
+<link>https://news.ycombinator.com/item?id=28141462</link>
+<dc:creator>CoffeePython</dc:creator>
+<comments>https://news.ycombinator.com/item?id=28141462</comments>
+<guid isPermaLink="false">https://news.ycombinator.com/item?id=28141462</guid>
+</item>
+<item>
+<title>
+<![CDATA[ Kind: A Modern Proof Language ]]>
+</title>
+<description>
+<![CDATA[ <p>Article URL: <a href="https://github.com/uwu-tech/kind">https://github.com/uwu-tech/kind</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=28141365">https://news.ycombinator.com/item?id=28141365</a></p> <p>Points: 24</p> <p># Comments: 1</p> ]]>
+</description>
+<pubDate>Wed, 11 Aug 2021 12:47:34 +0000</pubDate>
+<link>https://github.com/uwu-tech/kind</link>
+<dc:creator>danny00</dc:creator>
+<comments>https://news.ycombinator.com/item?id=28141365</comments>
+<guid isPermaLink="false">https://news.ycombinator.com/item?id=28141365</guid>
+</item>
+<item>
+<title>
+<![CDATA[ What if we could transpile COBOL into Elixir ]]>
+</title>
+<description>
+<![CDATA[ <p>Article URL: <a href="https://dockyard.com/blog/2021/08/10/what-if-coboltoelixir">https://dockyard.com/blog/2021/08/10/what-if-coboltoelixir</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=28141289">https://news.ycombinator.com/item?id=28141289</a></p> <p>Points: 17</p> <p># Comments: 12</p> ]]>
+</description>
+<pubDate>Wed, 11 Aug 2021 12:40:25 +0000</pubDate>
+<link>https://dockyard.com/blog/2021/08/10/what-if-coboltoelixir</link>
+<dc:creator>cgarvis</dc:creator>
+<comments>https://news.ycombinator.com/item?id=28141289</comments>
+<guid isPermaLink="false">https://news.ycombinator.com/item?id=28141289</guid>
+</item>
+<item>
+<title>
+<![CDATA[ An Old Hacker's Tips on Staying Employed ]]>
+</title>
+<description>
+<![CDATA[ <p>Article URL: <a href="https://madned.substack.com/p/an-old-hackers-tips-on-staying-employed">https://madned.substack.com/p/an-old-hackers-tips-on-staying-employed</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=28141203">https://news.ycombinator.com/item?id=28141203</a></p> <p>Points: 134</p> <p># Comments: 46</p> ]]>
+</description>
+<pubDate>Wed, 11 Aug 2021 12:31:22 +0000</pubDate>
+<link>https://madned.substack.com/p/an-old-hackers-tips-on-staying-employed</link>
+<dc:creator>mad_ned</dc:creator>
+<comments>https://news.ycombinator.com/item?id=28141203</comments>
+<guid isPermaLink="false">https://news.ycombinator.com/item?id=28141203</guid>
+</item>
+<item>
+<title>
+<![CDATA[ Copy-Protection for Vinyl in the 1970s ]]>
+</title>
+<description>
+<![CDATA[ <p>Article URL: <a href="https://www.currybet.net/cbet_blog/2008/01/copy-protection-for-vinyl-in-t.php">https://www.currybet.net/cbet_blog/2008/01/copy-protection-for-vinyl-in-t.php</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=28141089">https://news.ycombinator.com/item?id=28141089</a></p> <p>Points: 37</p> <p># Comments: 14</p> ]]>
+</description>
+<pubDate>Wed, 11 Aug 2021 12:18:53 +0000</pubDate>
+<link>https://www.currybet.net/cbet_blog/2008/01/copy-protection-for-vinyl-in-t.php</link>
+<dc:creator>wut42</dc:creator>
+<comments>https://news.ycombinator.com/item?id=28141089</comments>
+<guid isPermaLink="false">https://news.ycombinator.com/item?id=28141089</guid>
+</item>
+<item>
+<title>
+<![CDATA[ MagicBell (YC W21) Is Hiring a Founding Front End Engineer (Remote) ]]>
+</title>
+<description>
+<![CDATA[ <p>Article URL: <a href="https://magicbell.notion.site/Founding-Frontend-Engineer-Fully-Remote-5d6c0eceed334d6e95f71dec6167453c">https://magicbell.notion.site/Founding-Frontend-Engineer-Fully-Remote-5d6c0eceed334d6e95f71dec6167453c</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=28140925">https://news.ycombinator.com/item?id=28140925</a></p> <p>Points: 1</p> <p># Comments: 0</p> ]]>
+</description>
+<pubDate>Wed, 11 Aug 2021 12:00:51 +0000</pubDate>
+<link>https://magicbell.notion.site/Founding-Frontend-Engineer-Fully-Remote-5d6c0eceed334d6e95f71dec6167453c</link>
+<dc:creator>unamashana</dc:creator>
+<comments>https://news.ycombinator.com/item?id=28140925</comments>
+<guid isPermaLink="false">https://news.ycombinator.com/item?id=28140925</guid>
+</item>
+<item>
+<title>
+<![CDATA[ Open-sourcing a more precise time appliance ]]>
+</title>
+<description>
+<![CDATA[ <p>Article URL: <a href="https://engineering.fb.com/2021/08/11/open-source/time-appliance/">https://engineering.fb.com/2021/08/11/open-source/time-appliance/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=28140732">https://news.ycombinator.com/item?id=28140732</a></p> <p>Points: 182</p> <p># Comments: 64</p> ]]>
+</description>
+<pubDate>Wed, 11 Aug 2021 11:37:48 +0000</pubDate>
+<link>https://engineering.fb.com/2021/08/11/open-source/time-appliance/</link>
+<dc:creator>alexvoica</dc:creator>
+<comments>https://news.ycombinator.com/item?id=28140732</comments>
+<guid isPermaLink="false">https://news.ycombinator.com/item?id=28140732</guid>
+</item>
+<item>
+<title>
+<![CDATA[ The British Library puts 1M newspaper pages online for free ]]>
+</title>
+<description>
+<![CDATA[ <p>Article URL: <a href="https://www.ianvisits.co.uk/blog/2021/08/11/british-library-puts-1-million-newspaper-pages-online-for-free/">https://www.ianvisits.co.uk/blog/2021/08/11/british-library-puts-1-million-newspaper-pages-online-for-free/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=28140621">https://news.ycombinator.com/item?id=28140621</a></p> <p>Points: 68</p> <p># Comments: 12</p> ]]>
+</description>
+<pubDate>Wed, 11 Aug 2021 11:20:20 +0000</pubDate>
+<link>https://www.ianvisits.co.uk/blog/2021/08/11/british-library-puts-1-million-newspaper-pages-online-for-free/</link>
+<dc:creator>aries1980</dc:creator>
+<comments>https://news.ycombinator.com/item?id=28140621</comments>
+<guid isPermaLink="false">https://news.ycombinator.com/item?id=28140621</guid>
+</item>
+<item>
+<title>
+<![CDATA[ Scale of Russian mercenary mission in Libya exposed ]]>
+</title>
+<description>
+<![CDATA[ <p>Article URL: <a href="https://www.bbc.com/news/world-africa-58009514">https://www.bbc.com/news/world-africa-58009514</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=28140367">https://news.ycombinator.com/item?id=28140367</a></p> <p>Points: 94</p> <p># Comments: 56</p> ]]>
+</description>
+<pubDate>Wed, 11 Aug 2021 10:40:53 +0000</pubDate>
+<link>https://www.bbc.com/news/world-africa-58009514</link>
+<dc:creator>NotSwift</dc:creator>
+<comments>https://news.ycombinator.com/item?id=28140367</comments>
+<guid isPermaLink="false">https://news.ycombinator.com/item?id=28140367</guid>
+</item>
+<item>
+<title>
+<![CDATA[ Plants, Heavy Metals, and the Lingering Scars of World War I ]]>
+</title>
+<description>
+<![CDATA[ <p>Article URL: <a href="https://www.atlasobscura.com/articles/zone-rouge-plant-growth">https://www.atlasobscura.com/articles/zone-rouge-plant-growth</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=28139603">https://news.ycombinator.com/item?id=28139603</a></p> <p>Points: 87</p> <p># Comments: 27</p> ]]>
+</description>
+<pubDate>Wed, 11 Aug 2021 08:48:38 +0000</pubDate>
+<link>https://www.atlasobscura.com/articles/zone-rouge-plant-growth</link>
+<dc:creator>bcaulfield</dc:creator>
+<comments>https://news.ycombinator.com/item?id=28139603</comments>
+<guid isPermaLink="false">https://news.ycombinator.com/item?id=28139603</guid>
+</item>
+<item>
+<title>
+<![CDATA[ State of netbooting Raspberry Pi in 2021 ]]>
+</title>
+<description>
+<![CDATA[ <p>Article URL: <a href="https://blog.alexellis.io/state-of-netbooting-raspberry-pi-in-2021/">https://blog.alexellis.io/state-of-netbooting-raspberry-pi-in-2021/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=28139117">https://news.ycombinator.com/item?id=28139117</a></p> <p>Points: 60</p> <p># Comments: 37</p> ]]>
+</description>
+<pubDate>Wed, 11 Aug 2021 07:32:30 +0000</pubDate>
+<link>https://blog.alexellis.io/state-of-netbooting-raspberry-pi-in-2021/</link>
+<dc:creator>alexellisuk</dc:creator>
+<comments>https://news.ycombinator.com/item?id=28139117</comments>
+<guid isPermaLink="false">https://news.ycombinator.com/item?id=28139117</guid>
+</item>
+<item>
+<title>
+<![CDATA[ Australia is becoming a surveillance state ]]>
+</title>
+<description>
+<![CDATA[ <p>Article URL: <a href="https://ia.acs.org.au/article/2021/australia-is-becoming-a-surveillance-state.html">https://ia.acs.org.au/article/2021/australia-is-becoming-a-surveillance-state.html</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=28139048">https://news.ycombinator.com/item?id=28139048</a></p> <p>Points: 314</p> <p># Comments: 238</p> ]]>
+</description>
+<pubDate>Wed, 11 Aug 2021 07:19:37 +0000</pubDate>
+<link>https://ia.acs.org.au/article/2021/australia-is-becoming-a-surveillance-state.html</link>
+<dc:creator>LordAtlas</dc:creator>
+<comments>https://news.ycombinator.com/item?id=28139048</comments>
+<guid isPermaLink="false">https://news.ycombinator.com/item?id=28139048</guid>
+</item>
+<item>
+<title>
+<![CDATA[ The Ancient Persian way to keep cool ]]>
+</title>
+<description>
+<![CDATA[ <p>Article URL: <a href="https://www.bbc.com/future/article/20210810-the-ancient-persian-way-to-keep-cool">https://www.bbc.com/future/article/20210810-the-ancient-persian-way-to-keep-cool</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=28138844">https://news.ycombinator.com/item?id=28138844</a></p> <p>Points: 179</p> <p># Comments: 84</p> ]]>
+</description>
+<pubDate>Wed, 11 Aug 2021 06:46:09 +0000</pubDate>
+<link>https://www.bbc.com/future/article/20210810-the-ancient-persian-way-to-keep-cool</link>
+<dc:creator>nelox</dc:creator>
+<comments>https://news.ycombinator.com/item?id=28138844</comments>
+<guid isPermaLink="false">https://news.ycombinator.com/item?id=28138844</guid>
+</item>
+<item>
+<title>
+<![CDATA[ Default disappearing messages ]]>
+</title>
+<description>
+<![CDATA[ <p>Article URL: <a href="https://signal.org/blog/disappearing-by-default/">https://signal.org/blog/disappearing-by-default/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=28138195">https://news.ycombinator.com/item?id=28138195</a></p> <p>Points: 147</p> <p># Comments: 108</p> ]]>
+</description>
+<pubDate>Wed, 11 Aug 2021 05:00:28 +0000</pubDate>
+<link>https://signal.org/blog/disappearing-by-default/</link>
+<dc:creator>colesantiago</dc:creator>
+<comments>https://news.ycombinator.com/item?id=28138195</comments>
+<guid isPermaLink="false">https://news.ycombinator.com/item?id=28138195</guid>
+</item>
+<item>
+<title>
+<![CDATA[ The Problem with Ethereum ]]>
+</title>
+<description>
+<![CDATA[ <p>Article URL: <a href="https://tomerstrolight.medium.com/the-problem-with-ethereum-af9692f4af95">https://tomerstrolight.medium.com/the-problem-with-ethereum-af9692f4af95</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=28138161">https://news.ycombinator.com/item?id=28138161</a></p> <p>Points: 382</p> <p># Comments: 249</p> ]]>
+</description>
+<pubDate>Wed, 11 Aug 2021 04:52:41 +0000</pubDate>
+<link>https://tomerstrolight.medium.com/the-problem-with-ethereum-af9692f4af95</link>
+<dc:creator>myth_buster</dc:creator>
+<comments>https://news.ycombinator.com/item?id=28138161</comments>
+<guid isPermaLink="false">https://news.ycombinator.com/item?id=28138161</guid>
+</item>
+<item>
+<title>
+<![CDATA[ DevOps, SRE, and Platform Engineering ]]>
+</title>
+<description>
+<![CDATA[ <p>Article URL: <a href="https://iximiuz.com/en/posts/devops-sre-and-platform-engineering/">https://iximiuz.com/en/posts/devops-sre-and-platform-engineering/</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=28137852">https://news.ycombinator.com/item?id=28137852</a></p> <p>Points: 125</p> <p># Comments: 71</p> ]]>
+</description>
+<pubDate>Wed, 11 Aug 2021 03:58:55 +0000</pubDate>
+<link>https://iximiuz.com/en/posts/devops-sre-and-platform-engineering/</link>
+<dc:creator>limonod</dc:creator>
+<comments>https://news.ycombinator.com/item?id=28137852</comments>
+<guid isPermaLink="false">https://news.ycombinator.com/item?id=28137852</guid>
+</item>
+<item>
+<title>
+<![CDATA[ Sony's new curved image sensors could shake up the whole camera industry ]]>
+</title>
+<description>
+<![CDATA[ <p>Article URL: <a href="https://www.digitalcameraworld.com/news/sonys-new-curved-image-sensors-could-shake-up-the-whole-camera-industry">https://www.digitalcameraworld.com/news/sonys-new-curved-image-sensors-could-shake-up-the-whole-camera-industry</a></p> <p>Comments URL: <a href="https://news.ycombinator.com/item?id=28137361">https://news.ycombinator.com/item?id=28137361</a></p> <p>Points: 125</p> <p># Comments: 61</p> ]]>
+</description>
+<pubDate>Wed, 11 Aug 2021 02:49:21 +0000</pubDate>
+<link>https://www.digitalcameraworld.com/news/sonys-new-curved-image-sensors-could-shake-up-the-whole-camera-industry</link>
+<dc:creator>hhs</dc:creator>
+<comments>https://news.ycombinator.com/item?id=28137361</comments>
+<guid isPermaLink="false">https://news.ycombinator.com/item?id=28137361</guid>
+</item>
+</channel>
+</rss>
