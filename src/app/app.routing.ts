@@ -5,11 +5,12 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AppComponent } from './app.component';
 import { RssfeedComponent } from './rssfeed/rssfeed.component';
+import { XmlParserComponent } from './xml-parser/xml-parser.component';
 
 const routes: Routes = [
    //{ path: '', component: AppComponent},
     { path: 'search', component: SearchComponent },
-   // { path: 'rssfeed', component: RssfeedComponent }
+    { path: 'xml', component: XmlParserComponent }
   ];
 
   @NgModule({

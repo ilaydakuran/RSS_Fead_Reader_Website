@@ -11,18 +11,20 @@
 <br>
 <br>
 
-  <form id="form"> 
+ 
     <ul>    
       <li routerLinkActive="active">
          <a [routerLink]="['/search']">Search</a> <!-- burda search component kısmına gidiyor-->
       </li>
-     
+      <li routerLinkActive="active">
+        <a [routerLink]="['/xml']">xml</a> <!-- burda xml component kısmına gidiyor-->
+     </li>
      
 
     </ul>
     <router-outlet></router-outlet> <!--router-outlet tells the router where to display routed views.-->
   
-  </form>
+ 
  
 </body>
 
