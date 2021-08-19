@@ -14,47 +14,44 @@ import { Url, UrlObject } from 'url';
 })
 export class SearchComponent implements OnInit {
   //results: SearchResult[] = [];
- 
+
   @Input() feed_url: string;
   constructor(
-    
+
     private router: Router,
     public http: HttpClient,
-    
-  
+
+
   ) {
+
   }
   ngOnInit() {
-   
+
   }
- 
+
   onClickSubmit(data: { http: HttpClient; }) {
-    
-    if(!data){
-      alert("URL is not valid");
+
+    // @ts-ignore
+    if(data!= this.http){
+      alert("URL is not valid, enter a valid URL");
     }
     else{
       alert("URL is submitted");
       this.openLinkInBrowser();
-      
     }
-    
-    
  }
-  
-  
-  
+
   openLinkInBrowser() {
 
-     window.open(this.feed_url); // yeni sekme açıyor 
+     window.open(this.feed_url); // yeni sekme açıyor
       console.log(this.feed_url); //girilen linki konsola basar
-      
+    this.router.navigate(['/xml']);
   }
-  
 
-  
+
+
 }
- 
+
 
 
 

@@ -7,21 +7,30 @@
               <th>Description</th>
             </tr>
           </thead>
-          <td>xxxx</td>
           <tbody>
-            <tr *ngFor="let x of xmlItems ;let j=index" [ngClass]="x.class_name">
 
-              <td>{{x.title}}</td>
-              <td>{{x.link}}</td>
-              <td>{{x.description}}</td>
-
+            <tr *ngFor="let x of xmlItems ;let j=index">
+              <td>{{x?.title}} </td> <span id="title"></span>
+              <td>{{x?.link}}</td> <span id="link"></span>
+              <td>{{x?.description}}</td> <span id="description"></span>
             </tr>
           </tbody>
-
         </table>
 
+ <script>
 
-
+     var xmlhttp, xmlDoc;
+     xmlhttp = new XMLHttpRequest();
+     xmlhttp.open("GET", "feeds.xml", false);
+     xmlhttp.send();
+     xmlDoc = xmlhttp.responseXML;
+     document.getElementById("title").innerHTML=
+     xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+     document.getElementById("link").innerHTML=
+     xmlDoc.getElementsByTagName("link")[0].childNodes[0].nodeValue;
+     document.getElementById("description").innerHTML=
+     xmlDoc.getElementsByTagName("description")[0].childNodes[0].nodeValue;
+ </script>
 
 
 

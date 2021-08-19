@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import * as xml2js from 'xml2js';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Observable } from 'rxjs';
-import { analyzeAndValidateNgModules, FormattedMessageChain } from '@angular/compiler';
-import { SearchComponent } from '../search/search.component';
+
+
+
 //XML PARSER HAS no callbacks
 @Component({
   selector: 'app-xml-parser',
@@ -15,9 +15,8 @@ import { SearchComponent } from '../search/search.component';
 export class XmlParserComponent {
   public xmlItems: any;
 
-  constructor(private http: HttpClient,
 
-    ) {
+  constructor(private http: HttpClient) {
 
     this.loadXML();
   }
@@ -25,43 +24,58 @@ export class XmlParserComponent {
 
   loadXML() { //reading the xml file
 
-    return this.http.get('/assets/feeds.xml',
+    return this.http.get('https://m.highwaysengland.co.uk/feeds/rss/UnplannedEvents.xml',
+
       {
         headers: new HttpHeaders()
-          .set('Content-Type', 'text/xml')
-          //.append('Access-Control-Allow-Methods', 'GET')
-          .append('Access-Control-Allow-Origin', 'http://localhost:55155')
-          .append('Access-Control-Allow-Credentials', 'true')
-          .append('Access-Control-Allow-Headers', "Access-Control-Allow-Headers, Access-Control-Allow-Origin, Access-Control-Request-Method"),
+         // .set('Content-Type', 'test/xml') get olduğu zaman content type'a gerek yokmuş
+          //'http://127.0.0.1:4200
+         .append('Access-Control-Allow-Origin', '*') //* allows any origin.
+        .append('Access-Control-Allow-Method', 'GET') // GET requests can have "Accept" headers
+         // .append('Access-Control-Allow-Credentials','true') // bunu kullanırsam origini * yapamıyoruz
+          .append('Access-Control-Allow-Headers',
+            " Access-Control-Allow-Origin, Access-Control-Allow-Method, Accept"),
+
         responseType: 'text' as 'text'
       })
       .subscribe(
         (xmldata) => { this.parseXML(xmldata).then(  (xmldata) => {this.xmlItems = xmldata;} );  }
       );
+
   }
   parseXML(xmldata: string) { //store xml data into array variable
+
     return new Promise(resolve => {
       let k: string | number,
 
-         arr = [] as any,
-
+        arr = [] as any,
+    //arr:XmlParserComponent[];
         parser = new xml2js.Parser(
           {
             trim: true,
-            explicitArray: true
+            mergeAttrs : true,
+            explicitArray: false
           });
-//@ts-ignore
-      parser.parseString(xmldata, function (err ,result) { //TODO
+
+      parser.parseString(xmldata, function (err:any ,result: any) {
+       // let feed:any;
+
+        if (err) {
+          console.warn(err);
+        }
+       // feed = result;
 
         let obj = result.channel;
-        for (k in obj.item) {
-          let itemfeed = obj.item[k];
+        // @ts-ignore
+        for (k of obj.$item) {
+          let itemfeed = obj.$item[k];
           arr.push({
           //  id: itemfeed.id[0],
             title: itemfeed.title[0],
             link: itemfeed.link[0],
             description: itemfeed.description[0]
           });
+        //  return feed || { };
         }
         resolve(arr);
       });

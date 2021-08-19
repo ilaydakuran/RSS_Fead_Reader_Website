@@ -1,49 +1,194 @@
-<rss version="0.91">
-<channel>
-<title>WriteTheWeb</title>
-<link>http://writetheweb.com</link>
-<description>News for web users that write back</description>
-<language>en-us</language>
-<copyright>Copyright 2000, WriteTheWeb team.</copyright>
-<managingEditor>editor@writetheweb.com</managingEditor>
-<webMaster>webmaster@writetheweb.com</webMaster>
-<image>
-<title>WriteTheWeb</title>
-<url>http://writetheweb.com/images/mynetscape88.gif</url>
-<link>http://writetheweb.com</link>
-<width>88</width>
-<height>31</height>
-<description>News for web users that write back</description>
-</image>
-<item>
-<title>Giving the world a pluggable Gnutella</title>
-<link>http://writetheweb.com/read.php?item=24</link>
-<description>WorldOS is a framework on which to build programs that work like Freenet or Gnutella -allowing distributed applications using peer-to-peer routing.</description>
-</item>
-<item>
-<title>Syndication discussions hot up</title>
-<link>http://writetheweb.com/read.php?item=23</link>
-<description>After a period of dormancy, the Syndication mailing list has become active again, with contributions from leaders in traditional media and Web syndication.</description>
-</item>
-<item>
-<title>Personal web server integrates file sharing and messaging</title>
-<link>http://writetheweb.com/read.php?item=22</link>
-<description>The Magi Project is an innovative project to create a combined personal web server and messaging system that enables the sharing and synchronization of information across desktop, laptop and palmtop devices.</description>
-</item>
-<item>
-<title>Syndication and Metadata</title>
-<link>http://writetheweb.com/read.php?item=21</link>
-<description>RSS is probably the best known metadata format around. RDF is probably one of the least understood. In this essay, published on my O'Reilly Network weblog, I argue that the next generation of RSS should be based on RDF.</description>
-</item>
-<item>
-<title>UK bloggers get organised</title>
-<link>http://writetheweb.com/read.php?item=20</link>
-<description>Looks like the weblogs scene is gathering pace beyond the shores of the US. There's now a UK-specific page on weblogs.com, and a mailing list at egroups.</description>
-</item>
-<item>
-<title>Yournamehere.com more important than anything</title>
-<link>http://writetheweb.com/read.php?item=19</link>
-<description>Whatever you're publishing on the web, your site name is the most valuable asset you have, according to Carl Steadman.</description>
-</item>
-</channel>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title><![CDATA[BBC News - Technology]]></title>
+    <description><![CDATA[BBC News - Technology]]></description>
+    <link>https://www.bbc.co.uk/news/</link>
+    <image>
+      <url>https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+      <title>BBC News - Technology</title>
+      <link>https://www.bbc.co.uk/news/</link>
+    </image>
+    <generator>RSS for Node</generator>
+    <lastBuildDate>Wed, 18 Aug 2021 08:25:04 GMT</lastBuildDate>
+    <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
+    <language><![CDATA[en-gb]]></language>
+    <ttl>15</ttl>
+    <item>
+      <title><![CDATA[The little-known human stories behind emoji designs]]></title>
+      <description><![CDATA[The surprising story of how some tiny characters ended up on billions of smartphone keyboards.]]></description>
+      <link>https://www.bbc.co.uk/news/technology-58180556</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-58180556</guid>
+      <pubDate>Tue, 17 Aug 2021 23:05:34 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Tesla Autopilot: US opens official investigation into self-driving tech]]></title>
+      <description><![CDATA[The investigation covers all Tesla cars since 2014, focusing on crashes with emergency vehicles.]]></description>
+      <link>https://www.bbc.co.uk/news/technology-58232137</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-58232137</guid>
+      <pubDate>Mon, 16 Aug 2021 14:58:17 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Mastercard to end magnetic strip on cards]]></title>
+      <description><![CDATA[The company sets an expiry date of 2033 for the decades-old technology.]]></description>
+      <link>https://www.bbc.co.uk/news/technology-58206591</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-58206591</guid>
+      <pubDate>Tue, 17 Aug 2021 13:41:33 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Hydrogen power offers jobs boost, says government]]></title>
+      <description><![CDATA[Kick-starting a hydrogen industry could attract billions in investment, the UK government says.]]></description>
+      <link>https://www.bbc.co.uk/news/science-environment-58238367</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/science-environment-58238367</guid>
+      <pubDate>Tue, 17 Aug 2021 01:08:35 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[New police CCTV use rules criticised as bare bones]]></title>
+      <description><![CDATA[However, the guidelines empowered police and maintained public trust, the Home Office says.]]></description>
+      <link>https://www.bbc.co.uk/news/technology-58206586</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-58206586</guid>
+      <pubDate>Mon, 16 Aug 2021 23:51:01 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Twitter's new design to get fix after headache complaints]]></title>
+      <description><![CDATA[Unveiled last week, the redesign involved high-contrast colours and a custom-designed font, Chirp.]]></description>
+      <link>https://www.bbc.co.uk/news/technology-58232131</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-58232131</guid>
+      <pubDate>Mon, 16 Aug 2021 12:51:23 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Internet revamp for the humble landline]]></title>
+      <description><![CDATA[The UK plans to make all landlines into internet-based connections over the next few years.]]></description>
+      <link>https://www.bbc.co.uk/news/technology-58233420</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-58233420</guid>
+      <pubDate>Mon, 16 Aug 2021 14:59:26 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Parcel delivery texts now the most common con-trick]]></title>
+      <description><![CDATA[Text messages asking for a fee to deliver a package are responsible for most "smishing" fraud.]]></description>
+      <link>https://www.bbc.co.uk/news/business-58233743</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/business-58233743</guid>
+      <pubDate>Mon, 16 Aug 2021 14:13:19 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Social media fraud: The influencers promoting criminal scams]]></title>
+      <description><![CDATA[BBC Panorama investigates a new generation of fraudster that openly uses social media to promote crime.]]></description>
+      <link>https://www.bbc.co.uk/news/uk-58223499</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-58223499</guid>
+      <pubDate>Mon, 16 Aug 2021 00:16:12 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Streaming service DAZN seeks to shake up TV sport]]></title>
+      <description><![CDATA[Boss James Rushton has ambitious expansion plans for the service dubbed "the Netflix of sport".]]></description>
+      <link>https://www.bbc.co.uk/news/business-58219424</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/business-58219424</guid>
+      <pubDate>Sun, 15 Aug 2021 23:01:01 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[CCTV watchdog criticises Hikvision Uyghur response]]></title>
+      <description><![CDATA[UK surveillance camera commissioner criticises failure to answer "basic questions".]]></description>
+      <link>https://www.bbc.co.uk/news/technology-58188325</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-58188325</guid>
+      <pubDate>Sat, 14 Aug 2021 08:16:41 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Apple regrets confusion over 'iPhone scanning']]></title>
+      <description><![CDATA[The iPhone-maker will introduce tools that can detect child sex abuse images uploaded to iCloud.]]></description>
+      <link>https://www.bbc.co.uk/news/technology-58206543</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-58206543</guid>
+      <pubDate>Fri, 13 Aug 2021 17:16:46 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Green aviation: Electric powered plane trialled over Orkney]]></title>
+      <description><![CDATA[A hybrid-electric plane is being trialled in Orkney as part of a study into ways of reducing aviation emissions.]]></description>
+      <link>https://www.bbc.co.uk/news/uk-scotland-58180367</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-scotland-58180367</guid>
+      <pubDate>Thu, 12 Aug 2021 05:10:50 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[The $8bn EV company you’ve probably never heard of]]></title>
+      <description><![CDATA[Electric vehicle firm Arrival is worth $8bn (£5.7bn) - and is only making vans, buses and taxis.]]></description>
+      <link>https://www.bbc.co.uk/news/business-58174043</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/business-58174043</guid>
+      <pubDate>Thu, 12 Aug 2021 23:41:59 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Virtual reality: 'There's no max, there's no limit!']]></title>
+      <description><![CDATA["There's no max, there's no limit" to virtual reality, so is it the future of live music?]]></description>
+      <link>https://www.bbc.co.uk/news/entertainment-arts-58177685</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-58177685</guid>
+      <pubDate>Thu, 12 Aug 2021 23:11:57 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Classic Bentleys and Rolls-Royce adapted to fully electric]]></title>
+      <description><![CDATA[The vintage petrol-powered cars are re-engineered by a company based at the home of UK motorsport.]]></description>
+      <link>https://www.bbc.co.uk/news/technology-57901893</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-57901893</guid>
+      <pubDate>Tue, 10 Aug 2021 09:58:38 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Ariana Grande sings in Fortnite's metaverse]]></title>
+      <description><![CDATA[The pop star is the latest musician to perform a series of concerts inside the hit video game.]]></description>
+      <link>https://www.bbc.co.uk/news/technology-58146042</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-58146042</guid>
+      <pubDate>Mon, 09 Aug 2021 10:57:54 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Just how hard is it to recycle a jumbo jet?]]></title>
+      <description><![CDATA[Thousands of aircraft were left on the tarmac due to Covid, and many will now be broken up for parts.]]></description>
+      <link>https://www.bbc.co.uk/news/business-57983174</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/business-57983174</guid>
+      <pubDate>Mon, 16 Aug 2021 22:59:27 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Would you let a robot lawyer defend you?]]></title>
+      <description><![CDATA[Why artificial intelligence is increasingly being used by the legal profession.]]></description>
+      <link>https://www.bbc.co.uk/news/business-58158820</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/business-58158820</guid>
+      <pubDate>Sun, 15 Aug 2021 22:58:30 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[How can new technology protect outdoor workers?]]></title>
+      <description><![CDATA[Working outdoors in extreme heat can be deadly, new tech and better protection for workers could help.]]></description>
+      <link>https://www.bbc.co.uk/news/business-58049625</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/business-58049625</guid>
+      <pubDate>Thu, 12 Aug 2021 23:14:25 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Sharing apps are booming but will the kindness continue?]]></title>
+      <description><![CDATA[The pandemic sparked a surge in activity for sharing apps like Olio but has the trend run its course?]]></description>
+      <link>https://www.bbc.co.uk/news/business-57981598</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/business-57981598</guid>
+      <pubDate>Mon, 09 Aug 2021 23:02:08 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Why artificial intelligence is being used to write adverts]]></title>
+      <description><![CDATA[Advertisers are increasingly using artificial intelligence to come up with their winning slogans.]]></description>
+      <link>https://www.bbc.co.uk/news/business-57781557</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/business-57781557</guid>
+      <pubDate>Thu, 05 Aug 2021 23:06:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Tokyo 2020: TikTok becomes the unofficial behind-the-scenes Olympic channel]]></title>
+      <description><![CDATA[The short-form video platform is giving fans unprecedented insight into the athletes' experience.]]></description>
+      <link>https://www.bbc.co.uk/news/world-australia-58053519</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/world-australia-58053519</guid>
+      <pubDate>Wed, 04 Aug 2021 00:44:30 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[The perfect storm striking World of Warcraft]]></title>
+      <description><![CDATA[All of a sudden, WoW players are in revolt, and its competitors are having a boom.]]></description>
+      <link>https://www.bbc.co.uk/news/technology-58017429</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-58017429</guid>
+      <pubDate>Sat, 31 Jul 2021 23:18:12 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Twitter algorithm prefers slimmer, younger, light-skinned faces]]></title>
+      <description><![CDATA[A Twitter-sponsored competition to discover bias in its image algorithm finds precisely that.]]></description>
+      <link>https://www.bbc.co.uk/news/technology-58159723</link>
+      <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-58159723</guid>
+      <pubDate>Tue, 10 Aug 2021 16:17:48 GMT</pubDate>
+    </item>
+  </channel>
 </rss>
