@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 
 import { ActivatedRoute, Router, Routes } from '@angular/router';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { XmlParserComponent } from '../xml-parser/xml-parser.component';
+
 import { Url, UrlObject } from 'url';
 
 
@@ -32,8 +32,9 @@ export class SearchComponent implements OnInit {
   onClickSubmit(data: { http: HttpClient; }) {
 
     // @ts-ignore
-    if(data!= this.http){
+    if(data!= this.feed_url){
       alert("URL is not valid, enter a valid URL");
+      console.log('wrong url');
     }
     else{
       alert("URL is submitted");

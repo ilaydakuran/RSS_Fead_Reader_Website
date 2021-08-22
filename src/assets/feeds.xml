@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<rss version="2.0">
   <channel>
-    <title><![CDATA[BBC News - Technology]]></title>
-    <description><![CDATA[BBC News - Technology]]></description>
-    <link>https://www.bbc.co.uk/news/</link>
-    <image>
-      <url>https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
-      <title>BBC News - Technology</title>
-      <link>https://www.bbc.co.uk/news/</link>
-    </image>
-    <generator>RSS for Node</generator>
-    <lastBuildDate>Wed, 18 Aug 2021 08:25:04 GMT</lastBuildDate>
-    <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
-    <language><![CDATA[en-gb]]></language>
-    <ttl>15</ttl>
+
     <item>
       <title><![CDATA[The little-known human stories behind emoji designs]]></title>
       <description><![CDATA[The surprising story of how some tiny characters ended up on billions of smartphone keyboards.]]></description>

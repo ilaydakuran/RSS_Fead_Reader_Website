@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { AppRouting } from './app.routing';
 //import { RSSParserService } from './rss-parser.service';
 import { XmlParserComponent } from './xml-parser/xml-parser.component';
+import {XmlParser} from "@angular/compiler";
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,12 +24,15 @@ import { XmlParserComponent } from './xml-parser/xml-parser.component';
     HttpClientModule,
     RouterModule,
     AppRouting,
-    
-  
+
+
+
   ],
 
   providers: [
     //RSSParserService
+    XmlParser
+
   ],
   bootstrap: [AppComponent]
 })
